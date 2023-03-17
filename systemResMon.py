@@ -1,7 +1,6 @@
-import psutil
 import firebase_admin
-from firebase_admin import credentials
-from firebase_admin import db
+import psutil
+from firebase_admin import credentials, db
 from infi.systray import SysTrayIcon
 
 cred = credentials.Certificate("./firebase/firebase.json")
