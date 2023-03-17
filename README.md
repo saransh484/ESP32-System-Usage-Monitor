@@ -2,11 +2,9 @@
 
 ESP32 based System Usage Monitor written in python with firebase RTDB.
 
-
-
 ### ESP32 Schematic
 
-![esp32 lcd - Album on Imgur](https://imgur.com/a/NNgZXli)
+![esp32 lcd - Album on Imgur](Screenshots/circuit.png)
 
 ### How to run
 
@@ -14,24 +12,20 @@ ESP32 based System Usage Monitor written in python with firebase RTDB.
 python systemResMon.py
 ```
 
-enter database link and database secret key to the ESP32 code inside ESP32 folder
+Enter database link and database secret key to the ESP32 code inside ESP32 folder
 
 upload it and connect LCD according to schematic .
 
+##### System Tray icon
 
-
-System Tray icon
-
-![](https://imgur.com/XKiAmQV)
+![](Screenshots/sysTray.png)
 
 ### How to Exit
 
-![](https://imgur.com/ATdqz8m)
-
-
+![](Screenshots/sysTray_quit.png)
 
 ### Screenshots
 
-![](https://imgur.com/o8W1jMb)
+![](Screenshots/lcd.gif)
 
-![](https://imgur.com/i1epq1I)
+![](Screenshots/db.gif)
